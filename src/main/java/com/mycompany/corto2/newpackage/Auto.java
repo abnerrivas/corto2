@@ -1,12 +1,10 @@
-package com.mycompany.corto2;
+package com.mycompany.corto2.newpackage;
+
+import com.mycompany.corto2.newpackage.Vehiculo;
 
 public class Auto extends Vehiculo {
     private int cantidadPuertas;
 
-    public Auto(String marca, String modelo, int año, double velocidad) {
-        super(marca, modelo, año);
-        this.cantidadPuertas = cantidadPuertas;
-    }
 
     @Override
     public void mostrarInfo() {

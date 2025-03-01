@@ -1,13 +1,9 @@
-package com.mycompany.corto2;
+package com.mycompany.corto2.newpackage;
 
 public class Camion extends Vehiculo {
     private double capacidadCarga;
 
-    public Camion(String marca, String modelo, int año, double velocidad) {
-        super(marca, modelo, año);
-        this.capacidadCarga = capacidadCarga;
-    }
-
+  
     @Override
     public void mostrarInfo() {
         super.mostrarInfo();

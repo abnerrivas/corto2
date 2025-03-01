@@ -1,13 +1,11 @@
-package com.mycompany.corto2;
+package com.mycompany.corto2.newpackage;
+
+import com.mycompany.corto2.newpackage.Vehiculo;
 
 public class Moto extends Vehiculo {
     private String tipoManillar;
 
-    public Moto(String marca, String modelo, int año, String tipoManillar) {
-        super(marca, modelo, año);
-        this.tipoManillar = tipoManillar;
-
-    }
+ 
     
     @Override
 
